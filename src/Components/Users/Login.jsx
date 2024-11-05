@@ -1,9 +1,8 @@
 import { React } from "react";
 import  "./Login";
 
-var MyClass = React.createClass({
-    render: function() {
-      return (
+const MyLogin = () => {
+  return (
         <div>
           <meta charSet="UTF-8" />
           <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -15,7 +14,7 @@ var MyClass = React.createClass({
           <div className="wrapper">
             <form action> 
               <h1>Login</h1>
-              <style dangerouslySetInnerHTML={{__html: " h1 {font-size: 1000px; } " }} />
+              <style dangerouslySetInnerHTML={{__html: " h1 {font-size: 12px; } " }} />
               <div className="input-box">
                 <input type="text" placeholder="Username" required />
                 <i className="bx bxs-user" />
@@ -36,7 +35,6 @@ var MyClass = React.createClass({
           </div>
         </div>
       );
-    }
-  });
+    };
 
-  export default Login;
+  export default MyLogin;
