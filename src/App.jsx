@@ -1,15 +1,13 @@
 import { React } from "react";
 import './App.css';
-import { Login } from "./Components/Users/Login";
+import  MyLogin  from "./Components/Users/Login";
 
 
 function App() {
 
   return (
     <>
-      <Login />
-
-
+      <MyLogin />
     </>
   )
 }
