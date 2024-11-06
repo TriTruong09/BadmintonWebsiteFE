@@ -12,14 +12,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background : url(Yonex2.jbg.webp) no-repeat;
+    background : url(Yonex-1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .wrapper{
     width: 420px;
-    background:gray ;
+    background:seagreen ;
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;

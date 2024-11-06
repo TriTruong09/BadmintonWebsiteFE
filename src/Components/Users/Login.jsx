@@ -1,20 +1,20 @@
 import { React } from "react";
-import  "./Login";
+import  "./Login.css";
 
-const MyLogin = () => {
+const Login = () => {
   return (
         <div>
           <meta charSet="UTF-8" />
           <link rel="icon" type="image/svg+xml" href="/vite.svg" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title> Login </title>
-          <link rel="Loginsheet" href="Login.css" />
+          <link rel="Loginsheet" href="./Login.css" />
           <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="Loginsheet" />
           <div id="root" />
           <div className="wrapper">
             <form action> 
               <h1>Login</h1>
-              <style dangerouslySetInnerHTML={{__html: " h1 {font-size: 12px; } " }} />
+              <style dangerouslySetInnerHTML={{__html: " h1 {font-size: 150px; } " }} />
               <div className="input-box">
                 <input type="text" placeholder="Username" required />
                 <i className="bx bxs-user" />
@@ -37,4 +37,4 @@ const MyLogin = () => {
       );
     };
 
-  export default MyLogin;
+  export default Login;
