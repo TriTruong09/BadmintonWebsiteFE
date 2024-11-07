@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!----=========Flaticon==========-->
-    <link rel="stylesheet" href="" />
+    <link 
+      rel='stylesheet' 
+      href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'
+    />
 
     <!----=========SWIPER CSS==========-->
-    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <!----=========CSS==========-->
     <link rel="stylesheet" href="src/Style.css" />
@@ -47,30 +53,34 @@
         <ul class="nav__list">
           
           <li class="nav__item">
-            <a href="index.html" class="nav__link active-link">Home</a>
+            <a href="index.html" class="nav__link active-link">Trang chủ</a>
           </li>
 
           <li class="nav__item">
-            <a href="product.html" class="nav__link">Product</a>
+            <a href="product.html" class="nav__link">Sản phẩm</a>
           </li>
 
           <li class="nav__item">
-            <a href="accounts.html" class="nav__link">My Account</a>
+            <a href="accounts.html" class="nav__link">Tài khoản</a>
           </li>
 
           <li class="nav__item">
-            <a href="compare.html" class="nav__link">Compare</a>
+            <a href="compare.html" class="nav__link">So sánh</a>
           </li>
 
           <li class="nav__item">
-            <a href="login-register.html" class="nav__link">Login</a>
+            <a href="advise.html" class="nav__link">Tư vấn</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="login-register.html" class="nav__link">Đăng nhập</a>
           
           </li>
         </ul>
 
         <div class="header__search">
           <input type="text"
-           placeholder="Search for items..."
+           placeholder="Tìm sản phẩm..."
             class="form__input"
           />
 
@@ -98,45 +108,110 @@
       </nav>
     </header>
    
-    <!----=========MAIN==========-->
-    <main class="main"></main>
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section--lg">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Hot promotions</span>
+            <h1  class="home__title">
+              Special Offer <span>BIG SALE</span> 
+            </h1>
+            <p class="home__description">
+              Up to 50% off
+            </p>
+            <a href="product.html" class="btn">Let's go</a>
+          </div>
+          <img src="src/assets/img/banner 1.webp" alt="" class="home__img" />
 
-        <!----=========HOME==========-->
-        <section class="home section--lg">
-          <div class="home__container container grid">
-            <div class="home__content">
-              <span class="home__subtitle">Hot promotions</span>
-              <h1  class="home__title">
-                Special Offer <span>BIG SALE</span> 
-              </h1>
-              <p class="home__description">
-                Up to 50% off
-              </p>
-              <a href="product.html" class="btn">Let's go</a>
-            </div>
-            <img src="src/assets/img/Yonex2.jbg.webp" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--=============== CATEGORIES ===============-->
+      <section class="categories container section">
+        <h3 class="section__title"> <span>Sản phẩm</span> Cầu lông</h3>
+
+        <div class="categories__container swiper">
+          <div class="swiper-wrapper">
+            <a href="product.html" class="category__item swiper-slide">
+              <img src="src/assets/img/ctg-1-racket.png" alt="" class="category__img">
+
+              <h3 class="category__title"></h3>
+            </a>
+
+            <a href="product.html" class="category__item swiper-slide">
+              <img src="src/assets/img/ctg2-shoes.png" alt="" class="category__img">
+
+              <h3 class="category__title"></h3>
+            </a>
+
+            <a href="product.html" class="category__item swiper-slide">
+              <img src="src/assets/img/ctg3-T-shirt.png" alt="" class="category__img">
+
+              <h3 class="category__title"></h3>
+            </a>
+
+            <a href="product.html" class="category__item swiper-slide">
+              <img src="src/assets/img/ctg4-short.png" alt="" class="category__img">
+
+              <h3 class="category__title"></h3>
+            </a>
+
+            <a href="product.html" class="category__item swiper-slide">
+              <img src="src/assets/img/ctg5-bag.png" alt="" class="category__img">
+
+              <h3 class="category__title"></h3>
+            </a>
+
+            <a href="product.html" class="category__item swiper-slide">
+              <img src="src/assets/img/ctg6-accesory.png" alt="" class="category__img">
+
+              <h3 class="category__title"></h3>
+            </a>
+
 
           </div>
-        </section>
 
-        <!----=========CATEGORIES==========-->
-        <section class="categories"></section>
+          <div class="swiper-button-next">
+            <i class="fi fi-rs-angle-small-right"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fi fi-rs-angle-small-left"></i>
+          </div>
 
-        <!----=========PRODUCTS==========-->
-        <section class="products"></section>
+        </div>
+      </section>
 
-        <!----=========DEALS==========-->
-        <section class="deals"></section>
+      <!--=============== PRODUCTS ===============-->
+      <section class="products"></section>
+
+      <!--=============== DEALS ===============-->
+      <section class="deals"></section>
+
+      <!--=============== NEW ARRIVALS ===============-->
+      <section class="new__arrivals"></section>
+
+      <!--=============== SHOWCASE ===============-->
+      <section class="showcase"></section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter"></section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer"></footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="src/main.js"></script>
 
 
 
 
 
 
-
-
-
-    
-    
+  
   </body>
 </html>
